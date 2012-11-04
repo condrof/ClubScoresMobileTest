@@ -2,7 +2,7 @@
 
 <% @posts.each do |post| %>
   <ul data-role="listview">
-    <li><%= link_to post.heading, post_path(post) %></li>
+    <li><%= link_to post.heading, post_path(post) %></li><br />
   </ul>
 <% end %>
 
