@@ -1,7 +1,9 @@
 Jqmobtest::Application.routes.draw do
+  resources :matches
+
   resources :posts
 
-  root :to => 'posts#index'
+  root :to => 'matches#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
